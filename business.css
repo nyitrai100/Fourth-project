@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mimg{
+     width: 85%;
+     border-top-left-radius: 10px;
+     border-top-right-radius:10px;
+    
+}
+
+
+
+.block1{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    position: relative;
+    
+}
+.block2{
+    
+}
+.imgBg{
+    width: 85%;
+    height: 100%;
+    background-color: purple;
+    opacity: 0.5;
+    z-index: 10;
+    position: absolute;
+}
