@@ -26,13 +26,68 @@ body{
     
 }
 .block2{
+    width:320px;
+    margin-left: 7.25%;
+    display: flex;
+    justify-content: center;
     
 }
 .imgBg{
     width: 85%;
     height: 100%;
-    background-color: purple;
+    background-color: #a055ce;
     opacity: 0.5;
     z-index: 10;
     position: absolute;
+}
+.cardbackground{
+    background-color: hsl(244, 38%, 16%);
+}
+.block3{
+    width:320px;
+    margin-left: 7.25%;
+    display: flex;
+    justify-content: center;
+}
+
+.block4{
+    width:320px;
+    margin-left: 7.25%;
+    display: flex;
+    justify-content: center;
+}
+.block5{
+    width:320px;
+    margin-left: 7.25%;
+    display: flex;
+    justify-content: center;
+}
+.block6{
+    width:320px;
+    margin-left: 7.25%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#h3{
+    width: 210px;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+
+#paragraph1{
+    text-align: center;
+    width: 240px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+.block456{
+    text-align: center;
+}
+
+#paragraph2{
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
 }
