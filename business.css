@@ -55,28 +55,34 @@ body{
     margin-left: 7.25%;
     display: flex;
     justify-content: center;
+    margin-top: -20px;
+    
 }
 .block5{
     width:320px;
     margin-left: 7.25%;
     display: flex;
     justify-content: center;
+    margin-top: -15px;
+    
+   
 }
 .block6{
     width:320px;
     margin-left: 7.25%;
     display: flex;
     justify-content: center;
-    
+    margin-top: -15px;
     
 }
 #h3{
-    width: 210px;
+    width: 200px;
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     color: white;
     margin-bottom: 1px;
     font-family: 'Inter', sans-serif;
+    padding-top: 12px;
     
 }
 
@@ -85,10 +91,9 @@ body{
     width: 240px;
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 25px;
-   
-    
 
 }
+
 .block456{
     text-align: center;
 }
@@ -96,4 +101,9 @@ body{
 #paragraph2{
     text-align: center;
     color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: small;
+}
+.lastparagraph{
+    margin-bottom: 30px;
 }
