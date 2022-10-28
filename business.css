@@ -85,6 +85,16 @@ body{
     padding-top: 12px;
     
 }
+#h4{
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 12px;
+    
+}
 
 #paragraph1{
     text-align: center;
@@ -106,4 +116,135 @@ body{
 }
 .lastparagraph{
     margin-bottom: 30px;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1339px)
+    {
+    body{
+        background-color: black;
+    }
+    .grid-container{
+        display: grid;
+        flex-direction: column;
+        margin-top: 450px;
+        margin-left: 0px;
+        margin-right:70px;
+        padding-left: 70px;
+        
+        
+        
+    }
+    .grid-item1{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        
+        
+    }
+    .grid-item2{
+        grid-column-start:1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        
+    }
+    
+    
+    .block2{
+        width: 92.7%;
+        
+        
+       
+        
+    }
+    .block3{
+        width: 92.7%;
+        margin-bottom: -30px;
+        
+        
+       
+    }
+    .holder2{
+        display: flex;
+        width: 100%;
+        
+        
+        
+        
+    }
+    
+   
+    .block4{
+        width: 33.3333%;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        padding-top: 55px;
+        Padding-left: 100px;
+        
+        
+        
+        
+       
+    }
+    .block5{
+        width: 33.33333%;
+        margin-left: -80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      
+        
+    }
+    .block6{
+        width: 33.33333%;
+        margin-left: -80px;
+        margin-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        
+    }
+    .mimg{
+        width: 158%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        margin-right: 10px;
+    }
+    .imgBg{
+        width: 158%;
+        margin-right: 10px;
+        border-bottom-right-radius: 20px;
+    }
+    .block1{
+        margin-top: 0px;
+        margin-left: 100px;
+        
+    }
+    #h3{
+        
+        text-align: left;
+       
+
+        
+        
+        
+    }
+    #h4{
+        width:300px;
+        font-size: 27px;
+        text-align: left;
+        margin-left: -80px;
+       
+        
+    }
+   #paragraph1{
+            text-align: left;
+            height:100px;
+            width: 380px;
+            font-size: large;
+            padding-top: 20px;
+   }
+   #paragraph2{
+            text-align: left;
+   }
+
 }
